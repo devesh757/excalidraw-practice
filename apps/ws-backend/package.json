@@ -1,0 +1,24 @@
+{
+  "name": "ws-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"npx tsc -b",
+    "dev":"node ./dist/index.js",
+    "start":"npm run build && npm run start"
+  },
+  "dependencies": {
+    "@repo/db":"workspace:*"
+  },
+  
+  "devDependencies": {
+    "@repo/typescript-config":"workspace:*",
+    "@repo/common":"workspace:*",
+    "@repo/backend-common":"workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
